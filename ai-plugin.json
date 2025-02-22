@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "VAII",
+  "name_for_model": "vaai",
+  "description_for_human": "Plugin para analisar e validar documentos para benefícios do INSS.",
+  "description_for_model": "Este plugin processa PDFs, extrai dados, valida CPF, calcula benefícios e gera um relatório detalhado para aplicação ao INSS.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://bf7c897e-7339-45a7-b144-cc4b95df73cf-00-93jupix0dd0l.kirk.replit.dev/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://via.placeholder.com/150",
+  "contact_email": "seuemail@exemplo.com",
+  "legal_info_url": "https://seusite.com/termos"
+}

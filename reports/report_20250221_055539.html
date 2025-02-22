@@ -1,0 +1,104 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Relatório de Análise - VAII</title>
+      <style>
+        body { font-family: Arial, sans-serif; background-color: #f2f2f2; margin: 0; padding: 20px; }
+        .container { background: #fff; max-width: 800px; margin: auto; padding: 30px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #333; }
+        .section { margin-bottom: 20px; }
+        .section h2 { border-bottom: 2px solid #007BFF; padding-bottom: 5px; color: #007BFF; }
+        .data { font-size: 16px; margin: 10px 0; }
+        .data span { font-weight: bold; }
+        .mensagem { font-size: 18px; color: red; text-align: center; margin: 20px 0; }
+        .incompleto { font-size: 16px; color: orange; margin: 10px 0; }
+        a.button { display: inline-block; padding: 10px 15px; background: #28a745; color: #fff; text-decoration: none; border-radius: 4px; margin: 5px; }
+        a.button:hover { background: #218838; }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <h1>Relatório de Análise</h1>
+        <div class="section">
+          <h2>Avaliação Final</h2>
+          <div class="data"><span>Ocupação:</span> CLT</div>
+          <div class="data"><span>Aprovação:</span> Benefício Improvável</div>
+        </div>
+        
+          <div class="mensagem">A cliente não está apta a prosseguir. É necessário ter contribuído por 12 meses.</div>
+        
+        <div class="section">
+          <h2>Elegibilidade</h2>
+          <div class="data"><span>Pagou 12 meses:</span> Não</div>
+          <div class="data"><span>Qualidade de Segurada:</span> Sim</div>
+          <div class="data"><span>Dentro do Prazo:</span> Sim</div>
+          <div class="data"><span>Observação:</span> A cliente não está apta a prosseguir. É necessário ter contribuído por 12 meses.</div>
+        </div>
+        
+        <div class="section">
+          <h2>Documentos Faltantes</h2>
+          <div class="incompleto">
+            As seguintes informações estão faltando: RG da Mãe, Certidão de Nascimento do Filho, Extrato/CNIS.
+            <br>
+            Por favor, busque os documentos ou dados correspondentes para complementar o processo.
+          </div>
+        </div>
+        
+        <div class="section">
+          <h2>Documentos Processados</h2>
+          
+            <div class="data">
+              <span>Tipo:</span> RG<br>
+              <span>Arquivo Original:</span> Mutua Logo 2 finalizada quadrada.png<br>
+              <span>Arquivo Renomeado:</span> temp/_Nãoencontrado_RG.png<br>
+              <span>Qualidade do Texto:</span> Baixa qualidade: texto insuficiente para análise. Verifique o arquivo manualmente.<br>
+              
+                <a class="button" href="/download/_Nãoencontrado_RG.png">Baixar</a>
+              
+            </div>
+            <hr>
+          
+            <div class="data">
+              <span>Tipo:</span> CERTIDAO<br>
+              <span>Arquivo Original:</span> Mutua Logo 2 finalizada quadrada.png<br>
+              <span>Arquivo Renomeado:</span> temp/_Nãoencontrado_CERTIDAO.png<br>
+              <span>Qualidade do Texto:</span> Baixa qualidade: texto insuficiente para análise. Verifique o arquivo manualmente.<br>
+              
+                <a class="button" href="/download/_Nãoencontrado_CERTIDAO.png">Baixar</a>
+              
+            </div>
+            <hr>
+          
+            <div class="data">
+              <span>Tipo:</span> CNIS<br>
+              <span>Arquivo Original:</span> exemplo-de-cnis-1024x630.png<br>
+              <span>Arquivo Renomeado:</span> temp/_Nãoencontrado_CNIS.png<br>
+              <span>Qualidade do Texto:</span> OK<br>
+              
+                <a class="button" href="/download/_Nãoencontrado_CNIS.png">Baixar</a>
+              
+            </div>
+            <hr>
+          
+            <div class="data">
+              <span>Tipo:</span> PIS<br>
+              <span>Arquivo Original:</span> teste programa.pdf<br>
+              <span>Arquivo Renomeado:</span> temp/_Nãoencontrado_PIS.pdf<br>
+              <span>Qualidade do Texto:</span> OK<br>
+              
+                <a class="button" href="/download/_Nãoencontrado_PIS.pdf">Baixar</a>
+              
+            </div>
+            <hr>
+          
+        </div>
+        <div style="text-align:center; margin-top:20px;">
+          <a class="button" href="/upload_form">Novo Upload</a>
+          <a class="button" href="/download_report_pdf?report=report_20250221_055539.html">Baixar Relatório em PDF</a>
+        </div>
+      </div>
+    </body>
+    </html>
+    

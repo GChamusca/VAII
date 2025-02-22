@@ -1,0 +1,29 @@
+openapi: 3.0.0
+info:
+  title: VAII API
+  version: "1.0"
+  description: API para análise e validação de documentos para benefícios do INSS.
+servers:
+  - url: https://bf7c897e-7339-45a7-b144-cc4b95df73cf-00-93jupix0dd0l.kirk.replit.dev
+paths:
+  /upload:
+    post:
+      summary: Processa PDFs enviados.
+      description: Recebe um ou mais arquivos PDF e retorna um relatório com os dados extraídos e as validações.
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                file:
+                  type: string
+                  format: binary
+      responses:
+        '200':
+          description: Relatório gerado com sucesso.
+          content:
+            application/json:
+              schema:
+                type: object
