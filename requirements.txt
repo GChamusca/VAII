@@ -1,7 +1,4 @@
-flask
+Flask
 pdfplumber
-PyPDF2
 pandas
-pytesseract
-Pillow
 xhtml2pdf
